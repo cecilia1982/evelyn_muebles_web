@@ -2905,7 +2905,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .projects_item:before {
     content: "";
-    background: rgba(63, 172, 228, 0.68);
+    background: rgba(169, 223, 200, 0.68);
     position: absolute;
     left: 0px;
     top: 0px;
@@ -3401,6 +3401,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 80px;
 }
 
+
+
+
 .contact-page-area .contact-btns {
     font-size: 18px;
     font-weight: 600;
@@ -3447,16 +3450,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     border-radius: 0 !important;
-    background: #3face4;
+    background: #ee82ae;
     color: #fff;
     font-size: 14px;
-    border: 1px solid #3face4;
+    border: 1px solid #ee82ae;
 }
 
 .contact-page-area .form-area .primary-btn:hover {
     background: transparent;
-    border: 1px solid #3face4;
-    color: #3face4;
+    border: 1px solid #ee82ae;
+    color: #ee82ae;
 }
 
 @media (max-width: 991px) {
@@ -4585,4 +4588,22 @@ h6 {
     width: 100px; 
     height: 100px;
 }
+
+
+/*-----------------maps-------------------*/
+
+   .google-maps {
+        position: relative;
+        padding-bottom: 45%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 15px;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 
